@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="beanMVVM" type="com.example.testsome.designmode.mvvm.BeanMVVM"/>
+    </data>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            tools:context=".designmode.mvvm.ActivityDesignModeMVVM"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:textSize="18sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="name:"
+        />
+        <TextView
+            android:id="@+id/tvName"
+            android:text="@{beanMVVM.name}"
+                android:textSize="18sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+        />
+
+        <TextView
+                android:textSize="18sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="age:"
+        />
+        <TextView
+                android:id="@+id/tvAge"
+                android:textSize="18sp"
+                android:text="@{String.valueOf(beanMVVM.age)}"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+        />
+
+        <TextView
+                android:textSize="18sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="tvAddress:"
+        />
+        <TextView
+                android:id="@+id/tvAddress"
+                android:textSize="18sp"
+                android:text="@{beanMVVM.address}"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+        />
+
+
+        <Button
+                android:id="@+id/buChange"
+                android:textAllCaps="false"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="change"
+        />
+    </LinearLayout>
+</layout>

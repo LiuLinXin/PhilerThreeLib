@@ -1,0 +1,37 @@
+{
+    "confirmCode":"",
+    "clientID":"2",
+    "CommentType":"1010",
+    "dealResult":"",//1成功  -1失败  2未处理
+}
+
+{
+"confirmCode":"",
+"clientID":"2",
+"CommentType":"1010"
+}
+
+{
+    "id":
+    "num":2
+}
+"1 2 3 4"
+
+{
+    "confirmCode":"",
+    "clientID":"2",
+    "CommentType":"1010",
+    "dealResult":"",//1成功  -1失败  2未处理
+}
+
+{
+"confirmCode":"",
+"clientID":"2",
+"CommentType":"1010"
+}
+
+{
+    "id":
+    "num":2
+}
+"1 2 3 4"

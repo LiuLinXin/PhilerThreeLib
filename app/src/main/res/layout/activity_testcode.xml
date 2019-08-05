@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/tvMacCode"
+    />
+
+    <EditText
+            android:id="@+id/etPermissionCode"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="授权码"
+    />
+
+    <EditText
+            android:id="@+id/etDecodeWord"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="密码"
+    />
+
+    <Button
+            android:id="@+id/buCheck"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="校验"
+    />
+
+    <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/tvDecode"
+    />
+
+</LinearLayout>
